@@ -1,19 +1,19 @@
 #container-1 {
   display: grid;
   height: 100vh;
-  grid-template-columns: 0.1fr 0.3fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2.5fr 2fr 2fr 2fr 2fr;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    'sidebar welcome welcome content-1 content-2 content-3'
-    'sidebar welcome welcome content-1 content-2 content-3'
-    'sidebar welcome welcome content-1 content-2 content-3'
-    'sidebar welcome welcome text-content-1 text-content-2 text-content-3'
-    'sidebar welcome welcome content-4 content-5 content-6'
-    'sidebar welcome welcome content-4 content-5 content-6'
-    'sidebar welcome welcome content-4 content-5 content-6'
-    'sidebar welcome welcome text-content-4 text-content-5 text-content-6';
+    'sidebar welcome content-1 content-2 content-3 content-7'
+    'sidebar welcome content-1 content-2 content-3 content-7'
+    'sidebar welcome content-1 content-2 content-3 content-7'
+    'sidebar welcome text-content-1 text-content-2 text-content-3  text-content-7'
+    'sidebar welcome content-4 content-5 content-6 content-8'
+    'sidebar welcome content-4 content-5 content-6 content-8'
+    'sidebar welcome content-4 content-5 content-6 content-8'
+    'sidebar welcome text-content-4 text-content-5 text-content-6 text-content-8';
 
-  grid-gap: 0;
+  grid-gap: 0.2rem;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
@@ -31,7 +31,7 @@
   grid-area: welcome;
 }
 
-#content-1 {
+.content-1 {
   background-color: black;
   grid-area: content-1;
 }
@@ -54,6 +54,15 @@
 #content-6 {
   background-color: yellowgreen;
   grid-area: content-6;
+}
+
+#content-7 {
+  background-color: slateblue;
+  grid-area: content-7;
+}
+#content-8 {
+  background-color: black;
+  grid-area: content-8;
 }
 
 #text-content-1 {
@@ -79,4 +88,22 @@
 #text-content-6 {
   background-color: brown;
   grid-area: text-content-6;
+}
+
+#text-content-5 {
+  background-color: blue;
+  grid-area: text-content-5;
+}
+#text-content-6 {
+  background-color: brown;
+  grid-area: text-content-6;
+}
+
+#text-content-7 {
+  background-color: blue;
+  grid-area: text-content-7;
+}
+#text-content-8 {
+  background-color: brown;
+  grid-area: text-content-8;
 }
