@@ -226,8 +226,8 @@ p {
 }
 
 @media all and (max-width: 700px) {
-  #container {
-    display: grid;
+  /* #container {
+    display: flex;
     grid-template-columns: 0.1fr;
     grid-template-rows: 0.1fr 2fr 4fr 5ft;
     grid-template-areas:
@@ -238,5 +238,12 @@ p {
       'content3'
       'content4'
       'content5';
+  } */
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sidebar {
   }
 }
