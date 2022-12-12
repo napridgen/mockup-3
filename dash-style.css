@@ -1,3 +1,6 @@
+body {
+  background-color: salmon;
+}
 #container-1 {
   display: grid;
   height: 100vh;
@@ -13,7 +16,7 @@
     'sidebar welcome content-4 content-5 content-6 content-8'
     'sidebar welcome text-content-4 text-content-5 text-content-6 text-content-8';
 
-  grid-gap: 0.2rem;
+  grid-gap: 0.5rem;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
@@ -22,8 +25,44 @@
 }
 
 #sidebar {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(60, 37, 21);
   grid-area: sidebar;
+}
+
+.nav-footer {
+  justify-content: flex-end;
+}
+
+#sidebar ul {
+  color: white;
+  list-style: none;
+  text-align: center;
+}
+
+#sidebar li {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-right: 2.2rem;
+}
+
+h1 {
+  color: white;
+}
+
+#sidebar span {
+  color: white;
+  bottom: 0%;
+  height: -3rem;
+  margin: 1rem;
+}
+
+#nav-footer {
+  display: flex;
+  align-items: flex-end;
+  border-style: solid;
 }
 
 #welcome {
@@ -32,13 +71,83 @@
   background-image: url(/pexels-yaroslav-shuraev-8091468.jpg);
   background-size: cover;
   background-position: center;
+  opacity: 40%;
 }
 
 .content-1 {
-  background-color: black;
-  grid-area: content-1;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.post {
+  float: right;
+  padding: 10px;
+  color: white;
+  background-color: salmon;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.show {
+  float: right;
+  padding: 10px;
+  color: white;
+  background-color: salmon;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.find {
+  float: right;
+  padding: 10px;
+  color: white;
+  background-color: salmon;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.post:hover {
+  float: right;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.show:hover {
+  float: right;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.find:hover {
+  float: right;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
 #content-2 {
+  border-style: solid;
+  border-color: white;
   background-color: lime;
   grid-area: content-2;
   background-image: url(/photo-1.jpg);
@@ -46,6 +155,8 @@
   background-position: center;
 }
 #content-3 {
+  border-style: solid;
+  border-color: white;
   background-color: yellow;
   grid-area: content-3;
   background-image: url(/photo-2.jpg);
@@ -53,6 +164,8 @@
   background-position: center;
 }
 #content-4 {
+  border-style: solid;
+  border-color: white;
   background-color: orange;
   grid-area: content-4;
   background-image: url(/photo-3.jpg);
@@ -60,6 +173,8 @@
   background-position: center;
 }
 #content-5 {
+  border-style: solid;
+  border-color: white;
   background-color: slateblue;
   grid-area: content-5;
   background-image: url(/photo-4.jpg);
@@ -67,6 +182,8 @@
   background-position: center;
 }
 #content-6 {
+  border-style: solid;
+  border-color: white;
   background-color: yellowgreen;
   grid-area: content-6;
   background-image: url(/photo-5.jpg);
@@ -75,6 +192,8 @@
 }
 
 #content-7 {
+  border-style: solid;
+  border-color: white;
   background-color: slateblue;
   grid-area: content-7;
   background-image: url(/photo-6.jpg);
@@ -82,6 +201,8 @@
   background-position: center;
 }
 #content-8 {
+  border-style: solid;
+  border-color: white;
   background-color: black;
   grid-area: content-8;
   background-image: url(/photo-7.jpg);
