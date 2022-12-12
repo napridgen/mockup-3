@@ -29,10 +29,7 @@ body {
   flex-direction: column;
   background-color: rgb(60, 37, 21);
   grid-area: sidebar;
-}
-
-.nav-footer {
-  justify-content: flex-end;
+  position: relative;
 }
 
 #sidebar ul {
@@ -52,14 +49,22 @@ h1 {
   color: white;
 }
 
-#sidebar span {
+.side-nav {
+  padding-top: 90px;
+  margin: ;
+}
+
+#sidebar .nav-footer {
+  display: inline-block;
+  margin-left: 30px;
   color: white;
-  bottom: 0%;
-  height: -3rem;
-  margin: 1rem;
+  position: absolute;
+  bottom: 5%;
 }
 
 #nav-footer {
+  position: absolute;
+  bottom: 0;
   display: flex;
   align-items: flex-end;
   border-style: solid;
@@ -71,7 +76,16 @@ h1 {
   background-image: url(/pexels-yaroslav-shuraev-8091468.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 40%;
+  color: rgba(0, 0, 0, 1);
+}
+
+#welcome h1 {
+  opacity: 100%;
+  font-size: xx-large;
+  color: rgb(234, 170, 0);
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 0px 10px 0px;
 }
 
 .content-1 {
@@ -153,6 +167,13 @@ h1 {
   background-image: url(/photo-1.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#content-2 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0%;
 }
 #content-3 {
   border-style: solid;
@@ -162,6 +183,13 @@ h1 {
   background-image: url(/photo-2.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#content-3 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
 }
 #content-4 {
   border-style: solid;
@@ -171,6 +199,13 @@ h1 {
   background-image: url(/photo-3.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#content-4 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
 }
 #content-5 {
   border-style: solid;
@@ -180,7 +215,15 @@ h1 {
   background-image: url(/photo-4.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
+
+#content-5 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+
 #content-6 {
   border-style: solid;
   border-color: white;
@@ -189,9 +232,16 @@ h1 {
   background-image: url(/photo-5.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
+#content-6 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+}
 #content-7 {
+  background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
   border-color: white;
   background-color: slateblue;
@@ -199,7 +249,15 @@ h1 {
   background-image: url(/photo-6.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
+
+#content-7 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+
 #content-8 {
   border-style: solid;
   border-color: white;
@@ -208,47 +266,55 @@ h1 {
   background-image: url(/photo-7.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#content-8 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
 }
 
 #text-content-1 {
-  background-color: purple;
   grid-area: text-content-1;
 }
+
 #text-content-2 {
-  background-color: peru;
+  text-align: left;
   grid-area: text-content-2;
 }
 #text-content-3 {
-  background-color: powderblue;
+  background-image: url(/logo.png);
+  text-align: left;
   grid-area: text-content-3;
 }
 #text-content-4 {
-  background-color: pink;
+  text-align: left;
   grid-area: text-content-4;
 }
 #text-content-5 {
-  background-color: blue;
+  text-align: left;
   grid-area: text-content-5;
 }
 #text-content-6 {
-  background-color: brown;
+  text-align: left;
   grid-area: text-content-6;
 }
 
 #text-content-5 {
-  background-color: blue;
+  text-align: left;
   grid-area: text-content-5;
 }
 #text-content-6 {
-  background-color: brown;
+  text-align: left;
   grid-area: text-content-6;
 }
 
 #text-content-7 {
-  background-color: blue;
+  text-align: left;
   grid-area: text-content-7;
 }
 #text-content-8 {
-  background-color: brown;
+  text-align: left;
   grid-area: text-content-8;
 }
