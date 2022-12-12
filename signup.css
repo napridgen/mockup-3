@@ -1,0 +1,51 @@
+.sign-up-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 800px;
+}
+
+input[type='text'] {
+  display: block;
+  width: 350px;
+  height: 32px;
+  height: 40px;
+  margin: 20px;
+}
+
+input[type='password'] {
+  display: block;
+  width: 350px;
+  height: 32px;
+  height: 40px;
+  margin: 20px;
+}
+
+.agree {
+  position: absolute;
+  bottom: 0;
+}
+
+button {
+  width: 350px;
+  height: 40px;
+}
+
+.left-box {
+  padding: 50px;
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.rightobox {
+  padding: 50px;
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.left-side {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
