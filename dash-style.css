@@ -51,7 +51,6 @@ h1 {
 
 .side-nav {
   padding-top: 90px;
-  margin: ;
 }
 
 #sidebar .nav-footer {
@@ -280,41 +279,141 @@ h1 {
 }
 
 #text-content-2 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-2;
 }
+
 #text-content-3 {
-  background-image: url(/logo.png);
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-3;
 }
+
 #text-content-4 {
   text-align: left;
   grid-area: text-content-4;
 }
 #text-content-5 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-5;
 }
 #text-content-6 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-6;
 }
 
 #text-content-5 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-5;
 }
 #text-content-6 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-6;
 }
 
 #text-content-7 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-7;
 }
 #text-content-8 {
+  display: inline-flex;
   text-align: left;
   grid-area: text-content-8;
+}
+
+@media all and (max-width: 600px) {
+  #container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.02fr 56fr 56fr 56fr 56fr 56fr 0.1fr 1fr;
+    grid-template-areas:
+      'sidebar'
+      'content-2'
+      'content-3'
+      'content-4'
+      'content-5'
+      'content-6';
+    overflow: scroll;
+  }
+
+  textarea {
+    display: none;
+  }
+
+  #text-content-1 {
+    display: none;
+  }
+
+  #text-content-2 {
+    display: none;
+  }
+
+  #text-content-3 {
+    display: none;
+  }
+
+  #text-content-4 {
+    display: none;
+  }
+
+  #text-content-5 {
+    display: none;
+  }
+
+  #text-content-6 {
+    display: none;
+  }
+
+  #text-content-7 {
+    display: none;
+  }
+
+  #text-content-8 {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  #content-1 {
+    display: none;
+  }
+
+  #welcome {
+    display: none;
+  }
+
+  #sidebar .side-nav {
+    display: none;
+  }
+
+  #sidebar .nav-footer {
+    display: none;
+  }
+
+  body {
+    background-color: wheat;
+  }
+
+  h1 {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    margin-left: 6.5rem;
+  }
+
+  #sidebar {
+    display: flex;
+  }
+
+  #sidebar ul {
+    display: none;
+  }
 }
