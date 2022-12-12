@@ -20,7 +20,7 @@ body {
 
 .hero h1 {
   margin-top: 40px;
-  color: white;
+  color: black;
 }
 
 .signup-box {
@@ -64,10 +64,15 @@ body {
   border-style: solid;
   background-color: olive;
   border-radius: 10px;
+  border-color: black;
+  border-width: 3px;
 }
 
 input {
   background-color: olive;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
 }
 
 p {
@@ -84,4 +89,34 @@ button {
   border-style: solid;
   border-color: white;
   color: white;
+  margin-left: 30px;
+}
+
+button:hover {
+  background-color: black;
+  border-style: none;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  margin-left: 30px;
+}
+
+@media all and (max-width: 600px) {
+  /* .signup-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-box {
+    flex: 1;
+    width: 90%;
+    margin-right: ;
+  }
+
+  .right-box {
+    flex: 2;
+  } */
+  .signup-box {
+    max-width: 500px;
+  }
 }
