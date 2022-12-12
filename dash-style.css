@@ -1,0 +1,19 @@
+#container-1 {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome'
+    'sidebar welcome welcome';
+}
+
+#sidebar {
+  background-color: aqua;
+}
