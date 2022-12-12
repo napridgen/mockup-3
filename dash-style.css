@@ -29,7 +29,9 @@
 #welcome {
   background-color: red;
   grid-area: welcome;
-  background-image: url;
+  background-image: url(/pexels-yaroslav-shuraev-8091468.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .content-1 {
@@ -39,31 +41,52 @@
 #content-2 {
   background-color: lime;
   grid-area: content-2;
+  background-image: url(/photo-1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #content-3 {
   background-color: yellow;
   grid-area: content-3;
+  background-image: url(/photo-2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #content-4 {
   background-color: orange;
   grid-area: content-4;
+  background-image: url(/photo-3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #content-5 {
   background-color: slateblue;
   grid-area: content-5;
+  background-image: url(/photo-4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #content-6 {
   background-color: yellowgreen;
   grid-area: content-6;
+  background-image: url(/photo-5.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #content-7 {
   background-color: slateblue;
   grid-area: content-7;
+  background-image: url(/photo-6.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #content-8 {
   background-color: black;
   grid-area: content-8;
+  background-image: url(/photo-7.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #text-content-1 {
