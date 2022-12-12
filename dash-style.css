@@ -29,6 +29,7 @@
 #welcome {
   background-color: red;
   grid-area: welcome;
+  background-image: url;
 }
 
 .content-1 {
