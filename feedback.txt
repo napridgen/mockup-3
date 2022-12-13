@@ -1,0 +1,33 @@
+Requirements:
+[G] Use Flexbox or Grid system layout for the basic structure of your elements
+[G] Be able to navigate to the different pages. For example, clicking on "Login" should bring me to the login page, filling out the information and clicking "login" should then lead me to the dashboard page. Then, clicking "logout" should bring me back to the home page.
+[G] You will have 4 pages that are responsive to screen sizes. Each page will include both mobile and desktop views.
+[G] Separate your CSS files by pages. Do NOT have one giant CSS file
+
+_ Hardcode any text and don't worry about getting information from somewhere else (...for now)
+_ You CAN use reusable components from Bootstrap
+_ If you want to make something different from your mockup, that's fine, just don't change too much without keeping track of your changes and modifying the mockup if need be.
+
+General
+_ all images and assets should go into an appropriate folder ( assets/ , images/ , etc... )
+_ file names should not contain spaces
+_ use relative units over absolute units, especially when using flex.
+
+dashboard.html
+_ home links to index.html (Landing pg)
+_ responsive
+
+index.html (landing pg)
+_ Sign Up btn links to signup.html
+_ sign in links to signin.html
+_ responsive
+
+signin.html 
+_ responsive
+_ mobile layout alignment issues
+  -> Use relative units
+
+signup.html 
+_ responsive
+_ mobile layout needs layout help
+  -> Use relative units
